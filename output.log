@@ -1,0 +1,18 @@
+Codeception PHP Testing Framework v5.1.2 https://stand-with-ukraine.pp.ua
+
+[1mUnit Tests (2) [22m-----------------------------------------------------------------
+[31;1m✖[39;22m [35;1mTaskSearchTest:[39;22m Search[32m(3.40s)[39m
+[32;1m✔[39;22m [35;1mTaskSearchTest:[39;22m Search with invalid params[32m(0.16s)[39m
+--------------------------------------------------------------------------------
+Time: 00:16.091, Memory: 6.00 MB
+
+There was 1 failure:
+1) [35;1mTaskSearchTest:[39;22m Search
+[37;41;1m Test  [39;49;22mtests/unit/models/TaskSearchTest.php:testSearch
+Search results should not be empty.
+Failed asserting that an array is not empty.
+#1  /app/tests/unit/models/TaskSearchTest.php:59
+#2  /app/vendor/bin/codecept:119
+
+[37;41;1mFAILURES![39;49;22m
+[37;41;1mTests: 2, Assertions: 1, Failures: 1.[39;49;22m
