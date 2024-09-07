@@ -50,7 +50,7 @@ Para rodar os testes, rode o seguinte comando
 ```bash
   docker-compose exec -T php vendor/bin/codecept run unit tests/unit <diretório/arquivo>
 ```
-Se quiser, pode rodar o CodeSniffer para design patteners
+Se quiser, pode rodar o CodeSniffer
 
 ```bash
   docker-compose exec -T php vendor/bin/phpcs --standard=PSR12 <diretório>
